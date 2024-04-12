@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.joaocarloslima.Controller">
+   <children>
+      <ImageView fx:id="imgNave" fitHeight="40.0" fitWidth="53.0" layoutX="280.0" layoutY="400.0" pickOnBounds="true" preserveRatio="true" AnchorPane.topAnchor="400.0">
+         <image>
+            <Image url="@images/ships/playerShip1_blue.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="pontos" contentDisplay="RIGHT" layoutX="52.0" layoutY="6.0" prefHeight="40.0" prefWidth="75.0" text="0" textAlignment="RIGHT" textFill="#12ff35">
+         <font>
+            <Font name="Consolas Bold" size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="27.0" fitWidth="31.0" layoutX="14.0" layoutY="59.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/badge/shield_bronze.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="badge1" fitHeight="27.0" fitWidth="31.0" layoutX="14.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/badge/star_gold.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="level" contentDisplay="RIGHT" layoutX="52.0" layoutY="49.0" prefHeight="40.0" prefWidth="75.0" text="0" textAlignment="RIGHT" textFill="#12ff35">
+         <font>
+            <Font name="Consolas Bold" size="29.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
